@@ -1,0 +1,24 @@
+# Local simulator binaries and mutable runtime state
+Jammers-simulator-full-win64/
+simulator/local/
+*.exe
+*.dll
+*.pdb
+*.sqlite3
+*.jlog
+*.log
+*.jsonl
+*.zip
+*.7z
+*.dmg
+.local/
+
+# Python/editor output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+.idea/
+.vscode/
