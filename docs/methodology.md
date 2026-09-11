@@ -6,7 +6,16 @@
 
 ## 样本完整性
 
-`simulator/artifact-manifest.json` 记录程序及运行时文件的相对路径、文件大小和 SHA-256；`full-artifact-manifest.json` 记录完整的 272 个文件。完整样本本身通过 Git LFS 保存。运行 `tools/inventory.py --verify` 时：
+`simulator/artifact-manifest.json` 记录程序及运行时文件的相对路径、文件大小和 SHA-256；`full-artifact-manifest.json` 记录完整的 272 个文件。完整样本本身通过 Git LFS 保存。以 `simulator/Jammers-simulator-full-win64` 为根目录运行以下校验命令时：
+
+```bash
+python3 tools/inventory.py --root simulator/Jammers-simulator-full-win64 \
+  --manifest simulator/artifact-manifest.json --verify
+python3 tools/inventory.py --root simulator/Jammers-simulator-full-win64 \
+  --manifest simulator/full-artifact-manifest.json --verify --include-all
+```
+
+脚本会检查：
 
 1. 清单路径必须是相对路径，不能包含 `..`；
 2. 文件必须存在且大小、SHA-256 完全匹配；
