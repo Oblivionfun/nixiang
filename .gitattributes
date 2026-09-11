@@ -3,3 +3,12 @@
 *.json text eol=lf
 *.md text eol=lf
 *.png binary
+simulator/Jammers-simulator-full-win64/**/*.bin filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/**/*.sccd filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/**/*.sig filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/**/*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/**/*.exe filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/**/*.dll filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/**/*.pak filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/**/*.dat filter=lfs diff=lfs merge=lfs -text
+simulator/Jammers-simulator-full-win64/** -text

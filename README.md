@@ -2,13 +2,15 @@
 
 本课以 `Ashley-Reverse-Engineering-Course-Lesson-4---Authorized-Target-Range.app` 为授权靶场，目标是**逆向分析第三问和第四问演练地图的加载与生成机制，并在不受任何限制梳理正式模式地图生成流程、参数来源、随机化机制及初始化路径**。通过静态分析与动态观测，定位题目选择、地图初始化、干扰源数量、类型、位置、方向生成及状态传递的关键位置，比较第三问与第四问的逻辑差异，完成本地验证，并记录分析思路、关键位置、分析证据和验证结果，形成可复现的完整过程。所有操作仅限授权靶场和练习会话，不启动正式测试。
 
-> **本仓库不重新分发官方模拟器二进制。** 原始安装目录约 679 MB，包含官方程序及 WebView2 运行时，且当前目录没有附带再分发许可。仓库只保存文件清单、SHA-256 校验值、启动脚本和分析记录模板。请从官方来源取得软件，并确认自己有权使用和保存它。
+> **本仓库现已通过 Git LFS 纳入完整本地样本。** 样本约 679 MB，包含官方程序及 WebView2 运行时。使用前请确认自己拥有保存、上传和再分发该软件的权利，并遵守官方竞赛规则及软件许可。
 
 ## 你会得到什么
 
 ```text
 simulator/
   artifact-manifest.json       本地安装包的相对路径、大小和 SHA-256
+  full-artifact-manifest.json  272 个文件的完整清单（含运行状态）
+  Jammers-simulator-full-win64/ 完整 Windows 样本（大文件由 Git LFS 管理）
   README.md                    如何挂载官方目录、哪些文件不入库
 tools/
   inventory.py                 生成或校验本地安装目录清单
@@ -35,13 +37,22 @@ docs/
 
 ### 1. 准备官方目录
 
-将你有权使用的 `Jammers-simulator-full-win64` 保留在本机，例如：
+克隆仓库时确保本机已安装 Git LFS，并拉取 LFS 对象：
+
+```bash
+git lfs install
+git clone git@github.com:Oblivionfun/nixiang.git
+cd nixiang
+git lfs pull
+```
+
+如果你使用其他官方样本，将其放在 `simulator/` 下并运行清单校验。当前纳入仓库的完整样本也可保留在本机，例如：
 
 ```text
 C:\CUMCM\Jammers-simulator-full-win64
 ```
 
-不要把 `JammersSimulatorData` 下的运行数据库、日志、账号信息或演练记录复制进 Git。当前样本中主程序的相对路径是：
+`JammersSimulatorData` 下的数据库、日志和演练记录现在作为样本原目录一并保留；公开前请确认其中不含账号、令牌或个人信息。当前样本中主程序的相对路径是：
 
 ```text
 Jammers-simulator-full\jammers-simulator-full.exe
@@ -58,7 +69,7 @@ python tools/inventory.py \
   --verify
 ```
 
-Windows PowerShell 使用同样的命令；路径可写成 `C:\CUMCM\Jammers-simulator-full-win64`。`--verify` 会检查主程序和 WebView2 运行时文件是否与当前清单一致；清单不包含用户数据目录。
+Windows PowerShell 使用同样的命令；路径可写成 `C:\CUMCM\Jammers-simulator-full-win64`。`--verify` 会检查主程序和 WebView2 运行时文件是否与当前清单一致。若要核对完整目录（包括运行状态），将 manifest 换成 `simulator/full-artifact-manifest.json`。
 
 ### 3. 启动目标
 

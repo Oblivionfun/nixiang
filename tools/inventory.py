@@ -7,7 +7,6 @@ import hashlib
 import json
 from pathlib import Path
 
-
 EXCLUDED_NAMES = {".DS_Store"}
 EXCLUDED_TOP_LEVEL = {"JammersSimulatorData"}
 
@@ -27,20 +26,22 @@ def safe_relative(path: Path, root: Path) -> str:
     return relative.as_posix()
 
 
-def included(path: Path, root: Path) -> bool:
+def included(path: Path, root: Path, include_all: bool = False) -> bool:
     relative = path.relative_to(root)
+    if include_all:
+        return True
     return path.name not in EXCLUDED_NAMES and not any(
         part in EXCLUDED_TOP_LEVEL for part in relative.parts
     )
 
 
-def collect(root: Path) -> list[dict]:
+def collect(root: Path, include_all: bool = False) -> list[dict]:
     root = root.resolve()
     if not root.is_dir():
         raise FileNotFoundError(root)
     rows = []
     for path in sorted(root.rglob("*")):
-        if path.is_file() and included(path, root):
+        if path.is_file() and included(path, root, include_all):
             rows.append({"path": safe_relative(path, root), "bytes": path.stat().st_size, "sha256": digest(path)})
     return rows
 
@@ -48,7 +49,7 @@ def collect(root: Path) -> list[dict]:
 def load_manifest(path: Path) -> dict:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict) or not isinstance(data.get("files"), list):
-        raise ValueError("manifest must contain a files list")
+        raise TypeError("manifest must contain a files list")
     return data
 
 
@@ -66,7 +67,7 @@ def verify(root: Path, manifest: dict) -> tuple[list[str], list[str]]:
         if path.stat().st_size != row.get("bytes") or digest(path) != row.get("sha256"):
             mismatches.append(f"changed: {relative}")
     expected = {row["path"] for row in manifest["files"]}
-    actual = {row["path"] for row in collect(root)}
+    actual = {row["path"] for row in collect(root, manifest.get("scope") == "complete-local-sample")}
     extras = sorted(actual - expected)
     return mismatches, extras
 
@@ -77,12 +78,18 @@ def main() -> int:
     parser.add_argument("--manifest", required=True, type=Path)
     parser.add_argument("--verify", action="store_true")
     parser.add_argument("--write", action="store_true", help="write a new manifest from the local folder")
+    parser.add_argument("--include-all", action="store_true", help="include .DS_Store and mutable runtime state")
     args = parser.parse_args()
     if args.write and args.verify:
         parser.error("choose --write or --verify")
     if args.write:
-        rows = collect(args.root)
-        output = {"schema_version": 1, "source_label": "user-obtained-local-sample", "files": rows}
+        rows = collect(args.root, args.include_all)
+        output = {
+            "schema_version": 1,
+            "source_label": "user-obtained-local-sample",
+            "scope": "complete-local-sample" if args.include_all else "program-and-runtime",
+            "files": rows,
+        }
         args.manifest.parent.mkdir(parents=True, exist_ok=True)
         args.manifest.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"wrote {len(rows)} file records to {args.manifest}")

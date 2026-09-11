@@ -8,11 +8,17 @@ def test_repository_manifest_is_relative_and_sanitized():
     manifest = json.loads(Path("simulator/artifact-manifest.json").read_text(encoding="utf-8"))
     assert manifest["schema_version"] == 1
     assert manifest["source_label"] == "user-obtained-local-sample"
+    assert manifest["scope"] == "program-and-runtime"
     paths = [row["path"] for row in manifest["files"]]
     assert paths
     assert all(not Path(path).is_absolute() and ".." not in Path(path).parts for path in paths)
     assert all(not path.startswith("JammersSimulatorData/") for path in paths)
     assert all(len(row["sha256"]) == 64 for row in manifest["files"])
+
+    complete = json.loads(Path("simulator/full-artifact-manifest.json").read_text(encoding="utf-8"))
+    assert complete["scope"] == "complete-local-sample"
+    assert len(complete["files"]) == 272
+    assert any("JammersSimulatorData" in row["path"] for row in complete["files"])
 
 
 def test_verify_accepts_fixture(tmp_path):

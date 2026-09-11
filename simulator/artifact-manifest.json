@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "source_label": "user-obtained-local-sample",
+  "scope": "program-and-runtime",
   "files": [
     {
       "path": "Jammers-simulator-full/WebView2Runtime/151.0.4129.86.manifest",

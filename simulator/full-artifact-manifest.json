@@ -1,0 +1,1367 @@
+{
+  "schema_version": 1,
+  "source_label": "user-obtained-local-sample",
+  "scope": "complete-local-sample",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 6148,
+      "sha256": "a0550d8c011cff82c70b5bc8721fcac485342227a444cfd512970607199970ef"
+    },
+    {
+      "path": "Jammers-simulator-full/.DS_Store",
+      "bytes": 6148,
+      "sha256": "16bc95b160d1aa73281d3fd5e1e34a8affa30e32a0cefdbb6cc35e5f764ae6c3"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/formal-statistics-queue.sqlite3",
+      "bytes": 24576,
+      "sha256": "0f773ed2382366321094cda850b9456240b9aa3d7da2b753e0cbba80b9d090a4"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/formal-statistics-queue.sqlite3-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/formal-statistics-queue.sqlite3-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/practice-statistics-queue.sqlite3",
+      "bytes": 24576,
+      "sha256": "6d66fcf1a9ec5310002257cd337cf19e42effd4b19dfaa106313edae9bbdcaaf"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/practice-statistics-queue.sqlite3-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/practice-statistics-queue.sqlite3-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/startup.log",
+      "bytes": 358,
+      "sha256": "b95697ab4971e16d1f61f9a354145fbd8573684c4247c7d3b8f80bc123d66794"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/upload-queue.sqlite3",
+      "bytes": 24576,
+      "sha256": "ad46c060605ed63ef5689cfbf12057498f41725df85118f1a9dc2f1741f458fb"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/upload-queue.sqlite3-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "Jammers-simulator-full/JammersSimulatorData/upload-queue.sqlite3-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/.DS_Store",
+      "bytes": 8196,
+      "sha256": "95fbd8756cedd2d1732ccacce971212403c4bbac996a056bfc0dc45cf08abb8d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/151.0.4129.86.manifest",
+      "bytes": 226,
+      "sha256": "d2ad6b6d8907b4dfffd8a11770b1940dae9ca31d1e4874a13a1d141748c205a2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/AdSelectionAttestationsPreloaded/ad-selection-attestations.dat",
+      "bytes": 63,
+      "sha256": "dc94c97fb9437a5137a1d47b376e212732a15cb1266148792b94da6fa9939d17"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/AdSelectionAttestationsPreloaded/manifest.json",
+      "bytes": 128,
+      "sha256": "e92ad2a1a517ec4c6db1538513b0a529966249182b3a571fab3941ea3eff5ff0"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Copilot.dat",
+      "bytes": 8192,
+      "sha256": "d79e27858722fcb4c2db9a7fa6bb4fb958eb90c2ab12fd35370be8c05dee7878"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/EBWebView/x64/EmbeddedBrowserWebView.dll",
+      "bytes": 8936264,
+      "sha256": "61df0d7f79e8930536fe0d28fd49b53a27f87b8db3908905ba5d3a5385af0674"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/EBWebView/x86/EmbeddedBrowserWebView.dll",
+      "bytes": 5684040,
+      "sha256": "f8466e9258a02a1cd12c6191e82a32f41a66b86cf67d4a0b6541ba2f2427899b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Edge.dat",
+      "bytes": 12288,
+      "sha256": "aad5a84356ee96f3d6ca9742b23b6124eafba558f6d60ceed6c3067dac459c81"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/EdgeWebView.dat",
+      "bytes": 8192,
+      "sha256": "482297326005fcb6e961e9b3e327e4cbb151901e7ca55cbe2bf982823bc06934"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Extensions/external_extensions.json",
+      "bytes": 99,
+      "sha256": "a68cafd7d78d5c671c2560656653f2a4d83ab66d87a8728356a88fb1f477b3e6"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Installer/copilot_setup.exe",
+      "bytes": 31048,
+      "sha256": "3a8571d096f8a7804e0ec192091b97bda29429f45844e75c138762678d08355f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/af.pak",
+      "bytes": 1026407,
+      "sha256": "3871805180e0afbc6c3a5aa94ca95248bd93c64b1a106e91416e83b66bfef6e1"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/am.pak",
+      "bytes": 1508368,
+      "sha256": "20a23c1fd42bb107f9640ee8dcd0724477d50718336a87dee08108285cc3d485"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ar.pak",
+      "bytes": 1564980,
+      "sha256": "86413850d79d517e9192d11d4c98be6ba6860ecb0058acde8b99dde2cc0c40dc"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/as.pak",
+      "bytes": 2225229,
+      "sha256": "e1d21afdd92ccad797739148479b592c63fb3e3c61e5cc4ef502a945fb0f29da"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/az.pak",
+      "bytes": 1175564,
+      "sha256": "6e6f59a340b6dc33d6981f315a5f930081407f2144ef04bbe47d628782ef4e3f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/bg.pak",
+      "bytes": 1758154,
+      "sha256": "ebc2821ba43e6ece5dc9ae47866b07145b1f710280605bfeb54fa8eb624c942c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/bn-IN.pak",
+      "bytes": 2304701,
+      "sha256": "ee4180a1473e6734d180a17a741a1d8095e9e3b6d052177e3271341a96468dd5"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/bs.pak",
+      "bytes": 1096530,
+      "sha256": "8784fbbedb6eeb4861eb1a82f78718c1a16005f7a6cc1242899c3241c72d9bd5"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ca-Es-VALENCIA.pak",
+      "bytes": 1149060,
+      "sha256": "d73b331e11cb7ab65a998f3d203aab616fd0d77d73ccc4c0ed2bc368a537d9ec"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ca.pak",
+      "bytes": 1150868,
+      "sha256": "963e03b9134bf14d92f8cb4142eaade7dc5b1203fc6cc01e106b3162dc51884f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_af.pak",
+      "bytes": 65947,
+      "sha256": "3d9158e785d68af03ccb82978a176d6c557cc0e294c6c2b51d8ba6ef92601e53"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_am.pak",
+      "bytes": 96062,
+      "sha256": "ea65bb66560f315a0b310408c87fade663b889685386f855a2c8f319572df96f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ar.pak",
+      "bytes": 93004,
+      "sha256": "1706953da320e035e773e98b26c957982f2af437440bac7bbaedd0832473c27b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_as.pak",
+      "bytes": 142921,
+      "sha256": "658167c334e80631b25e6b23a36d528cf68821eddf1c832911799a8c7d68709d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_az.pak",
+      "bytes": 74045,
+      "sha256": "8c6a71761d0e966ad6f727eb5d92af80de8bde32fdd077fe054a401377f6c286"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_bg.pak",
+      "bytes": 108956,
+      "sha256": "ab4bdb6c8544f15776478e7a09617daa9d2cfe4923f58bf93d1e81fdea940d79"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_bn-IN.pak",
+      "bytes": 149292,
+      "sha256": "ac58abcaa2e520b224f0555e8783b180177c094242ebb82a850ca8431dd67f48"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_bs.pak",
+      "bytes": 68559,
+      "sha256": "6dc1c245137fc26336927468f2233e4ab537186fbba0bc7a7c3f5e5a218abb76"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ca-Es-VALENCIA.pak",
+      "bytes": 72239,
+      "sha256": "b56d4df65dec0d7e992758920fc109c6ca54e1b3b0da9da436dfe8dd025820e7"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ca.pak",
+      "bytes": 72028,
+      "sha256": "3a25d57e1ed54c7dc94ee9e0eee6ba66e973586d06ee8d804d925b8c6e8031f2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_cs.pak",
+      "bytes": 70186,
+      "sha256": "85fcb69781b062ad3db7d04448605fd439661bede305ec1c2ab5cd9a4e50baaf"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_cy.pak",
+      "bytes": 70308,
+      "sha256": "ae357bc7c4024109a43aa84640aa5a5ea4ea00eff3ec4678a4be89e165c9dcee"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_da.pak",
+      "bytes": 65502,
+      "sha256": "8f61573afcd92012ff403d263b5f4321f8cd0d7a908ad0c507693b851e709854"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_de.pak",
+      "bytes": 73077,
+      "sha256": "dd45da66e62792c22f269370011eaf1fd539f60bc0177b770339c13f535528af"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_el.pak",
+      "bytes": 123327,
+      "sha256": "b0d82ebe46ccdf97ed8d70f4ee270524e5393c704c6cc7dd12b86066413fef15"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_en-GB.pak",
+      "bytes": 60360,
+      "sha256": "db7c6021e8756b1a98b8e0b539e010ef713e9ee7b870b32e69310ac97af2e493"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_en-US.pak",
+      "bytes": 59715,
+      "sha256": "53a3c719f6d0d5f7a79d423ca71e43e8d79b40ae584133c39433053fae89e652"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_es-419.pak",
+      "bytes": 70491,
+      "sha256": "f83773ebf642137639f4fb05fed834dd29b63c5a6d8bf3cb41265ed1cbcfdaff"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_es.pak",
+      "bytes": 70294,
+      "sha256": "2803368597c65e3a554e1e4a81c52eb024bc70c64ae3900472bd7a5f488af02b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_et.pak",
+      "bytes": 64342,
+      "sha256": "598661aac4ee3e139f5a58596f7ba28d60a8f82e0b5a0e5eec9dee2c48e67bcc"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_eu.pak",
+      "bytes": 66310,
+      "sha256": "e44316ff4b59f41bbcb8d399e988bceef8ca2fa95b24cff9cbf1b73d6f80f994"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_fa.pak",
+      "bytes": 102624,
+      "sha256": "7df1899a6aacc69f58d0ce9c41a215b02b0002f9a75e39f37031c4c815221c0b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_fi.pak",
+      "bytes": 67853,
+      "sha256": "2b403070f565ebbe77b27c0e8ac48e21d6e1a163b0622b5aea04af30b639c347"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_fil.pak",
+      "bytes": 73734,
+      "sha256": "81a5effc33f26ddff089d4958aaec52bd1a75a7ea714ca8c8a3da979dcb3d3b8"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_fr-CA.pak",
+      "bytes": 77573,
+      "sha256": "8fa47e6e5a8e16a201a1185c13627d48935a2bf49daf595d53ea9c12c5581200"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_fr.pak",
+      "bytes": 77083,
+      "sha256": "decbddbd721ff7ae71e8b301a197a33f29a9104780efcf11d597f2efc97c1d45"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ga.pak",
+      "bytes": 77094,
+      "sha256": "44952a92583cc3fc4dc9fda61162ea560b7e8710a7c1811f24f38c21ad424d08"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_gd.pak",
+      "bytes": 78881,
+      "sha256": "9e054566f329a37f69c2eed3f6b3b398be04527112c467aa4f50dadfc1f5f130"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_gl.pak",
+      "bytes": 68763,
+      "sha256": "54ad8b3a4885b407541a806242d69e5d2116c7498a3bc1cbe3fddca093b0d87c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_gu.pak",
+      "bytes": 144459,
+      "sha256": "cd8bfa2e40d890a0be6a1101c484ccf43b32a44375a522bf7f134d722d2a753a"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_he.pak",
+      "bytes": 83302,
+      "sha256": "79e341d1b3f9251395bf82761ac4668bdd02a483beb94b12505bbd6e96d7b866"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_hi.pak",
+      "bytes": 141375,
+      "sha256": "87bf4abe97ef4d48996610f67668f76fd6ad646b2ad88769f4fa33cc3e9bc275"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_hr.pak",
+      "bytes": 69143,
+      "sha256": "4869fcc6702a062cb031d5a65de419da4ca981c49a5ede8d5e6aeeb756959b6f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_hu.pak",
+      "bytes": 74069,
+      "sha256": "09e4ae9f3644d05902e9fe3f8558154e8bef128ba1e1a5a934123ed0f883fde3"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_id.pak",
+      "bytes": 65631,
+      "sha256": "7e44de8bff552dce109763e9e8664556fbde3c1de528b9fe9b5e32c44697e40c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_is.pak",
+      "bytes": 69612,
+      "sha256": "1aa3b6a198eba1b59ca1d8afb951eb25b44da5511a8fd6698e894fe9b53f5a54"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_it.pak",
+      "bytes": 70128,
+      "sha256": "bd32f1123acecfc1d3d002b153ccaa40947c4f1b06f7b67b2a0543403d955ee5"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ja.pak",
+      "bytes": 84817,
+      "sha256": "cc4d9a2640c9aa1640262c5c09a68a449d92835186fbba4f5de4ca275513475e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ka.pak",
+      "bytes": 152225,
+      "sha256": "6093a520ff4461ac707e352e8a92ccbaa4a7808377a318de3a88490a7f36bcd8"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_kk.pak",
+      "bytes": 112252,
+      "sha256": "f529632a4f8a4d63c8621e8ec8c3b763b67f38aa614d0d16b59435f925c470c4"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_km.pak",
+      "bytes": 153416,
+      "sha256": "d4aa3a44128073663d95843f3bc5065601be1cb2a986fd163c1b818c494cc05f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_kn.pak",
+      "bytes": 155692,
+      "sha256": "d92d7845cd3e35ed8c83d5b82db38ddb0bda50887298b8c4d386c6646b44f6d1"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ko.pak",
+      "bytes": 73263,
+      "sha256": "d5d1f76e335327a862bfd46cd0e963c95e69d5484b2be38f64d542399e90d78f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_kok.pak",
+      "bytes": 134913,
+      "sha256": "c45f44ebc866d37b4f0f7ea77640c05b4321bb2d9cdd3aece1dd9556c8fa064e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_lb.pak",
+      "bytes": 70886,
+      "sha256": "435366af6d1b3142719290377e9972e17ce352c460d9f7a67e6b26a922f58b84"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_lo.pak",
+      "bytes": 138960,
+      "sha256": "9adfe327b90ec073d443a6e21da30f5238629e30f15ff726855c12b79a394a27"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_lt.pak",
+      "bytes": 73228,
+      "sha256": "75d2d6b8b4245f13f29c68236623f0d65febcd6c5c0fff2f02666a4ea750a119"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_lv.pak",
+      "bytes": 70605,
+      "sha256": "65687dcaeaf5f0c312e1b36b830fd875f6a251fdc6ed6c6598f35f3efa90f96e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_mi.pak",
+      "bytes": 71485,
+      "sha256": "a1f6b1c86d67f88a1d23887eb4bc1d9cc69042f35b16fd0dae60bcba9e0b51c3"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_mk.pak",
+      "bytes": 110460,
+      "sha256": "02459c27d6f18c805a00236c8b165d0a269380451e558e749f2199bc93ae8de6"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ml.pak",
+      "bytes": 172513,
+      "sha256": "68513f412c874cbb953173fc97ac95f9314bc3f2f30fdfd487d0d85b72299275"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_mr.pak",
+      "bytes": 145047,
+      "sha256": "645c9f6e2ba521fdbb5a3e23e0bf2cb7fe1e43d41abc39114ef544abb8c554d7"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ms.pak",
+      "bytes": 67955,
+      "sha256": "8c6c44b5a4409772f9caffeaba9301251dd1db8e7d0e7f80f24361c5438a2139"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_mt.pak",
+      "bytes": 73582,
+      "sha256": "2acf7b3e2747b00e0dd70d41500e258e3580b964429682622d676f2898045439"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_nb.pak",
+      "bytes": 63861,
+      "sha256": "2bfbff609612c84ddea2ebc7c96e0689149ce6b772b332edbeb5fded903bd38d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ne.pak",
+      "bytes": 148982,
+      "sha256": "b0c048311c462560a34c5d1a7961ada44e52acc865fb9e26373abe3d1e3c1a6c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_nl.pak",
+      "bytes": 68651,
+      "sha256": "4e4c259d6a0fc801a4d13d98676c8bd07274a17b3bccca37666d0549644311b0"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_nn.pak",
+      "bytes": 63735,
+      "sha256": "993e59854e1f69dd9784431ae7acd19c2eec6abcafa31502356e4ce8095f8732"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_or.pak",
+      "bytes": 155466,
+      "sha256": "88cc9c161bc5f4f19647fed3014666b726d0f3e01f6d2d5a91ac59f164d11b21"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_pa.pak",
+      "bytes": 148146,
+      "sha256": "8b71c608fd4f0418e3698a9b6e2e2fbab91bbf8275d7cf7b294f4519af9dd395"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_pl.pak",
+      "bytes": 75598,
+      "sha256": "69564e1553700ff9789a971bd366c14f8dce27d2af27cc545b2dd9e3143cb0cc"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_pt-BR.pak",
+      "bytes": 68947,
+      "sha256": "ae725c7bc7bf0611afa301f64f5091c31c91980b412ede4468cd0d1c85bc1455"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_pt-PT.pak",
+      "bytes": 71215,
+      "sha256": "a08539990212afec7940c096f3e6a4fefbdacd472341e4be342dbaec696ed57a"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_qu.pak",
+      "bytes": 71205,
+      "sha256": "a8b89c7cc1b18e3e9df33eca521e54abe137263e7ee7903497c73506ae46f50c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ro.pak",
+      "bytes": 72117,
+      "sha256": "ce76c7e1b4c08a6283af722e7e8cd30a70d0cc88f6b48716d6daff48472812ef"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ru.pak",
+      "bytes": 110505,
+      "sha256": "bf94a81730ca8409ef75a48dbc382bc7ecd2c8f1e58ecb91100fa2082cf043fb"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_sk.pak",
+      "bytes": 71708,
+      "sha256": "c93182cef945b4b2e569397c6563e294d9b48343bbbd9b8bd0af65ddca43f2af"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_sl.pak",
+      "bytes": 69341,
+      "sha256": "0d9218eeff8fb679f4a190cc0ffe667cde3ed4688158062b14be648d5d6c1f8e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_sq.pak",
+      "bytes": 71248,
+      "sha256": "cab8e7b95a823b75b85be9decbd4865d17ae0d527a74ef1f1807280d00eada27"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_sr-Cyrl-BA.pak",
+      "bytes": 106369,
+      "sha256": "d1e6558fe8c9cda879397622bf4fe1b3c852e5458fd30ddf919f1030f106ff37"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_sr-Latn-RS.pak",
+      "bytes": 69339,
+      "sha256": "2213552b3fa925ac1fd943f67addf6d80397f57703172f495d34fd19bd614c1d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_sr.pak",
+      "bytes": 108029,
+      "sha256": "9789fb3e6ebcf71733c6d2c21e5ddf7ebeed0c42c593d8e43732ea8fcde6e00f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_sv.pak",
+      "bytes": 64998,
+      "sha256": "cf8e7903c0b5fef419cb9273e9ce395cf59a776affef100a40829309838091cd"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ta.pak",
+      "bytes": 167728,
+      "sha256": "6dfd256e1d8badcbf639e556726ed3c94b49fd38e3ee7eaf4909a323400d1256"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_te.pak",
+      "bytes": 154493,
+      "sha256": "1e6a36141368c5a11c9ee06445733e385e7316d0d0b5b42bcadee08d28e88e5c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_th.pak",
+      "bytes": 136462,
+      "sha256": "483e3ecb1c3fe72776c012bfb41fb22a854b83a4737721be7a7507d0dcb14a3f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_tr.pak",
+      "bytes": 70749,
+      "sha256": "d42bd458c47a0ba346c8e6fda9a86ab10ddb968381933952163843e244217f9c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_tt.pak",
+      "bytes": 107387,
+      "sha256": "4bc71cafe701ff18664c1a156822f39215fc6afe289d25e59f06fde4d1b15d8f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ug.pak",
+      "bytes": 108661,
+      "sha256": "c91beac3699a48adf8be9b9b210d7564e14b3bc729a7a0ef797d7c5b5ab88c00"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_uk.pak",
+      "bytes": 106756,
+      "sha256": "a41e55ed0412efee78a0db2f111de263b73519c57d3c804c37b7ed8485f52242"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_ur.pak",
+      "bytes": 104804,
+      "sha256": "d1ad68de97b9ab1198d7c6a1bfcd3e88e19749c3eaa975c391fd6bbe90e19b43"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_vi.pak",
+      "bytes": 80861,
+      "sha256": "61afef19683ff9be3eabeab5101091b99d3336dbcfb3f0d5aa46623250eafd35"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_zh-CN.pak",
+      "bytes": 56780,
+      "sha256": "c5a9a40a2024bb52c0c1e3294b18ca80d3371406c3197e6dd407bfb3f41c73e1"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/copilot_overlay_strings_zh-TW.pak",
+      "bytes": 58999,
+      "sha256": "5bb186c393e26e45a6688104ea4555d2cb521b25fd9c2d9a96fe7305e0193c9c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/cs.pak",
+      "bytes": 1146599,
+      "sha256": "a23c8936d58a4b61a599b963ab1497adcc243712ca393eb3e041c0ffdd21137f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/cy.pak",
+      "bytes": 1135776,
+      "sha256": "c0908a70fff881562f773fff51a8b6197a857708fc9623c48d62098f35f37348"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/da.pak",
+      "bytes": 1026500,
+      "sha256": "8d3f0c6465dacbdc9afb57425c8909f7de2e2acfb8693f019f35774171ce21fb"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/de.pak",
+      "bytes": 1143861,
+      "sha256": "35907355ee49cde2503f8d153c85834f6dc1c649c8e60c174cbdeede7a7ae11f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/el.pak",
+      "bytes": 1947647,
+      "sha256": "86a2657a1b5e6b2f019a9c5b7350230eee036ab38fb68f811d77e66412793a89"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/en-GB.pak",
+      "bytes": 935966,
+      "sha256": "d59420f965d15635e7c877011621b4b5945373d52d15b97a727efc8e34390a77"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/en-US.pak",
+      "bytes": 917879,
+      "sha256": "d9efd2cb14dbe0408d1864834f0fd1d63eb41b7482cc1097492318c673f72c12"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/es-419.pak",
+      "bytes": 1135705,
+      "sha256": "c894552bb102523b4a8d5d00c464340b7197c267a8171769bdcd4d6bdc9d2218"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/es.pak",
+      "bytes": 1136528,
+      "sha256": "dddebf10c5ef96747aa35186efbdd1be6b2a9cf25816e27aeebf7004ffebbcf6"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/et.pak",
+      "bytes": 1016608,
+      "sha256": "5f52bcf0041c664e6762aa1b09719fe3c4356fdf04d322afbbd528b09b87a5c0"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/eu.pak",
+      "bytes": 1057749,
+      "sha256": "2712ca3771f3823270517896895f4ec505e60c7fdc23b978e4b5caae38649a74"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/fa.pak",
+      "bytes": 1585008,
+      "sha256": "6dbf7a390cc0f260a39f18dc605a0e562ef5dda56bfa123bf28cfa53438a1c72"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/fi.pak",
+      "bytes": 1061233,
+      "sha256": "7b233b3a02bf59420ed5322dcc4f319d2c0a8567e3739721adc93040eab86253"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/fil.pak",
+      "bytes": 1144947,
+      "sha256": "e1da167e8f9280be1420dcb0a6ab9f3ee202c5e9eb48b917e5a248fc4dbc13b0"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/fr-CA.pak",
+      "bytes": 1223377,
+      "sha256": "baf5b4cc61c3c5ddff1ca0c8e4930b6cbd1af9ad7481da44c9943cfc7315a8f1"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/fr.pak",
+      "bytes": 1214916,
+      "sha256": "ba63509f7d1d15faf1de92528958702725caddbfe810050aa59fcb2d1c882a88"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ga.pak",
+      "bytes": 1219939,
+      "sha256": "53bc68d550575bb7724bb3f933f3ba7af8e80bbd2d21c9de0db2d444bf79881d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/gd.pak",
+      "bytes": 1282973,
+      "sha256": "f9282ecf8dcbc6a3ed156f8e5befaade6948033e372fe5836a249729bd85211e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/gl.pak",
+      "bytes": 1087963,
+      "sha256": "5685de93a80b8ecd3f1a55785eaa0042d298c8ad1d36b50a980fb7c5579e7935"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/gu.pak",
+      "bytes": 2179496,
+      "sha256": "ebe675e7538196f49adc1d0a710811110561d1c992ae95f0ac9f50d267784563"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/he.pak",
+      "bytes": 1317548,
+      "sha256": "451959588c72943305c05ffe16d1cb5fffb9abd93b1f2acc66c696e93b0612c4"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/hi.pak",
+      "bytes": 2174279,
+      "sha256": "edb44ad5f9386be14f538f85a711a26c276c765bd39aa5cb9a33be67bbafe644"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/hr.pak",
+      "bytes": 1109591,
+      "sha256": "573af934c93bb2a23b17778c3b0245543dadb9b17ffa7f654dce960fb59e338c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/hu.pak",
+      "bytes": 1173666,
+      "sha256": "e769ef37a6a937fe6c78ff7fa06080355737bdf76d6e704c54440f0d86a4f4e2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/id.pak",
+      "bytes": 1003418,
+      "sha256": "daebca7d336bdc1780f016dd6e36c15b6259e7d4b926d0691c7648637be539f7"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/is.pak",
+      "bytes": 1076156,
+      "sha256": "4777eb1b03058a4127e22508a4e994792a7f30512e7f6ee0fc0a2f714669c72d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/it.pak",
+      "bytes": 1121044,
+      "sha256": "a2c4dc08c9632ccbba65efaf433d91ded451f5d2a44287ad8f02acf617b4d5ed"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ja.pak",
+      "bytes": 1309461,
+      "sha256": "e33922f91307829ebe698e01aa76de06224357069933b5c73b816e22c72d9b70"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ka.pak",
+      "bytes": 2431575,
+      "sha256": "aab95656ac5b3691f806fb2cb4ba45277a14fd6b0c0c052ce7533dcce7edf22c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/kk.pak",
+      "bytes": 1722463,
+      "sha256": "f01cef5e118aa1038ca3fd835091231076b23f617a86c9632e13b7ab39e6870b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/km.pak",
+      "bytes": 2340352,
+      "sha256": "75622bcf7277b9e432069ffac18db8e32bfee89e1aaab30af5fb81a4b68aaec5"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/kn.pak",
+      "bytes": 2433285,
+      "sha256": "fad7bd48cc5e5b8c1f7f6129e3473a84f9c2e4e1da64fb90f399161df3fe75f8"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ko.pak",
+      "bytes": 1103185,
+      "sha256": "ae94ba4f81fa9a6616ec6af7b0534deb30834740743d72af953d8001f2e4b0ee"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/kok.pak",
+      "bytes": 2103415,
+      "sha256": "f32dfd7655f9d2d5c752451d2b196261fb994f4dd3fbd9389fb46ccfb3bfd4e5"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/lb.pak",
+      "bytes": 1106542,
+      "sha256": "1414a57df94c7b7514ec40b95ea1c294a85f6cddfe3f86dad1c50147327f4415"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/lo.pak",
+      "bytes": 2126166,
+      "sha256": "a9583d83510aed2d3736410d1b93c23b96da466494d384d32ca7f8e4d48ae3ae"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/lt.pak",
+      "bytes": 1161224,
+      "sha256": "929e8d8cf02f0e3f21e4ebae83a4754d6277a251e42344e8069578f80b93411d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/lv.pak",
+      "bytes": 1130573,
+      "sha256": "9f8424eccb9af933faf62356596deca29a47becebc2a69b39743532c6ea53896"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/mi.pak",
+      "bytes": 1106673,
+      "sha256": "916f9b6b2d81f67ba3a99ae9d54137f838dfe6108684005bda31cf8c3636ef79"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/mk.pak",
+      "bytes": 1756403,
+      "sha256": "bb644826c23aedc81db9a28175af3e45adf8a946990167c1856beb913e000e3f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ml.pak",
+      "bytes": 2663823,
+      "sha256": "3cf8fc37991534bf2ff6ceade054751213e55c7025b60aebba2761c14dcc7458"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/mr.pak",
+      "bytes": 2197560,
+      "sha256": "9b340a548e2d75155ef53b8d0c5a9a7563420fccedd5501c4cd3abb6fe4cabab"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ms.pak",
+      "bytes": 1034186,
+      "sha256": "aea2b7569b31e742650c80a1341159ebc3dbd7714c5c7c1535a6dd3105dc07ab"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/mt.pak",
+      "bytes": 1179685,
+      "sha256": "2aa44069f9204619597aeac7c635ea8216f0e7b230feb7f04c768646ecfe771d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/nb.pak",
+      "bytes": 999933,
+      "sha256": "0ec247865078e37b3589994d84e28f7e99258bc6619ab147dc7c413d8a32c34e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ne.pak",
+      "bytes": 2333599,
+      "sha256": "fbf286d67ef6c173837a2c348ce5fcc5126f4814968f88ebbeae17ca85e71e87"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/nl.pak",
+      "bytes": 1070242,
+      "sha256": "26e0895dc5ce29312ecc039388ef6eab04b8f0a270389374203e056fbaaaedca"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/nn.pak",
+      "bytes": 1004241,
+      "sha256": "e765a14f5e7fd3d91d6934271e38d33f57c0196a20939c2fa0f4cd507436829c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/or.pak",
+      "bytes": 2424532,
+      "sha256": "7fd6b1a7783b5f29e1aaf9c76e0875a63aac7a3ccc37f852ecdbd70983fc4c6d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/pa.pak",
+      "bytes": 2220962,
+      "sha256": "dd565199203521e67207c629bb669857b5d2366011dd7254e8f3eef3f5fb7186"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/pl.pak",
+      "bytes": 1191733,
+      "sha256": "6d7587b7c89a8df6e5f02b6fc8549215f910c43ff483557a37832d2e36421ba6"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/pt-BR.pak",
+      "bytes": 1102628,
+      "sha256": "83ec2c25a6444cde030a20f884225d6afe8e2116b374715600e5c1a510378def"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/pt-PT.pak",
+      "bytes": 1134117,
+      "sha256": "03a8bebad330a9a5c9b95be2bcefdd5252b1d6abdfaf726116f34b3e2ee03abe"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/qu.pak",
+      "bytes": 1134767,
+      "sha256": "283abcddaaffb3a8d20e057343253229d9eef7f2b0a9ca1e9647cf1eb8f9dba0"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ro.pak",
+      "bytes": 1147235,
+      "sha256": "fa88a8cd003e0e5308a9b0f6924f74cffd42224add947ef7ef2c7bd5036de98a"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ru.pak",
+      "bytes": 1799982,
+      "sha256": "c0a1b6acc3278a4c080eea1b035ee3d20bb5dc939449783e71f0d8f9d554c9d5"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/sk.pak",
+      "bytes": 1167283,
+      "sha256": "a9dec73aab60cbcdf9b19690154f543b458295b7817fa465118267aa3e2e2436"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/sl.pak",
+      "bytes": 1108106,
+      "sha256": "77da6079dff8d873c07e48cc8b1e133e698d89d7f397678e03b96ce05b55e5eb"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/sq.pak",
+      "bytes": 1123205,
+      "sha256": "ef403c798e9ee5e0a21581f89668db0eb7da6dc156ed4c7c2fac58b404e51add"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/sr-Cyrl-BA.pak",
+      "bytes": 1700237,
+      "sha256": "b5f30c2426a9a03c759420aba25e42a0fb255f18a971e5ee3cb28c64ed7ce4ee"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/sr-Latn-RS.pak",
+      "bytes": 1101146,
+      "sha256": "dbf8c412550b49cf8dce6eef0056617d8543d0e7d638e7420ce6c7ac8e1de67d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/sr.pak",
+      "bytes": 1716962,
+      "sha256": "165c3e2c1ac256373fba32394f3009ac00c9e35c6a792d896b973004fcd97af8"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/sv.pak",
+      "bytes": 1027730,
+      "sha256": "8a64120b6de9c987486bae289ea29dccb001587f6582fbdd285a1703e9ce4bac"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ta.pak",
+      "bytes": 2657438,
+      "sha256": "8ce6029f4a2086c6626ee51ecefb6f6892d2cc22cfdf223d42ba539a0fe164c6"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/te.pak",
+      "bytes": 2401593,
+      "sha256": "da89a17f5333d32b4fe47c99484e1ec4c9cefd1d848933e7be6331d116144f10"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/th.pak",
+      "bytes": 2101953,
+      "sha256": "3d9d82e97253ce7301f48d191608aa6bb38a4ff5bdc602139f9929427a2a88fd"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/tr.pak",
+      "bytes": 1100364,
+      "sha256": "e7db41fef8843af77cdbf6631d1b58f5367c2ae5f800d1f6e1e6a8236f6f11c9"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/tt.pak",
+      "bytes": 1727432,
+      "sha256": "1823f992424c377290d6f49d22913dd23f8490d3dc175572d12856b3ed30e17e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ug.pak",
+      "bytes": 1669116,
+      "sha256": "ad700d34aca55e666e1dabce26b71a475c3b220261eb7102be25c2a4ff7907b3"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/uk.pak",
+      "bytes": 1764915,
+      "sha256": "11dab2e19e60cddbe5db5891efc8d016b09bd6ba9281b3d32e9b2ce2796be995"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/ur.pak",
+      "bytes": 1606652,
+      "sha256": "1aaed23e1f8f8c52f5af71e19d18b06fe16de6cbe687901fbdf07758aa4b7b98"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/vi.pak",
+      "bytes": 1256304,
+      "sha256": "dcea307b371f05386040fc5a358f5e8bc45f4e4bfbd363845c138b6e1eb97f8a"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/zh-CN.pak",
+      "bytes": 880754,
+      "sha256": "13f54b55a37ab5aba806a67c16cc9a3312e0b8686373ee277d7b39e3ddfb0948"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Locales/zh-TW.pak",
+      "bytes": 909743,
+      "sha256": "a71fb752859a680b2ba4bfec7a49b3741a3cddb16dc7cb418a3447d425171d18"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/MEIPreload/manifest.json",
+      "bytes": 238,
+      "sha256": "44844cf3dde6e80087ae0e6bf0d9326d7ef7d23326d24ac83af0850be26923d2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/MEIPreload/preloaded_data.pb",
+      "bytes": 8254,
+      "sha256": "c6070a157b4e28d16fbccbd233e93846ddb070c85e1a1bc64469b7a5f1424fad"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/PdfPreview/PdfPreviewHandler.dll",
+      "bytes": 261448,
+      "sha256": "eb2f8523133ca287bceb37d1d1aa817b0601adeb08b3650d28120718ad609503"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Advertising",
+      "bytes": 20362,
+      "sha256": "4b721b3f81b61a27f7e533b374b48a97226dafcb3f0a545e1b433b05768fa697"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Analytics",
+      "bytes": 4106,
+      "sha256": "faac13f0c919c6181a560f0ec71c8cbf99ff408e604c6bfddb75efd50fe5f469"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/CompatExceptions",
+      "bytes": 689,
+      "sha256": "5b462316a51c918d0bae95959bf827cb9c72bbd84ffb0e43b750aa91fbf3ba53"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Content",
+      "bytes": 4540,
+      "sha256": "2289d8b38b2c6ed9de2ced9b564a5de4cc210d3f72669f115418e99ffed4ed81"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Cryptomining",
+      "bytes": 668,
+      "sha256": "1e92781e88ee786bf6d1d5cb71d467a92fe7f281f2d1e548524bf119d7ddc700"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Entities",
+      "bytes": 69999,
+      "sha256": "f6e93c83d9e3cfdff064535647cee76fc85aa1c86fd22a93dcf3d2c377346d94"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Fingerprinting",
+      "bytes": 1124,
+      "sha256": "c332fbfbb43dbc970b08834222ec731d35925b7de3d6b0890a54d1a307497298"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/LICENSE",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Other",
+      "bytes": 34,
+      "sha256": "2b4a47b82cbe70e34407c7df126a24007aff8b45d5716db384d27cc1f3b30707"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/Social",
+      "bytes": 754,
+      "sha256": "4955c3e7f56641a4ae0ce9c79b4ceee4b21733b0f6dedc980bf8d822a792eba2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Mu/TransparentAdvertisers",
+      "bytes": 105,
+      "sha256": "d2cd0bef5f45daf490c53e705d6f67dfe12390c72a00efa6f5117432bd8edb8c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Advertising",
+      "bytes": 20812,
+      "sha256": "e0b69ec450c3c060a0beee9bde49c6a57c4e0c62f7f369220909e954c5946390"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Analytics",
+      "bytes": 3243,
+      "sha256": "3fae9242c423a17af837b7befa2c1273037155e4d2cb5053d7fde0114e8c1d77"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Content",
+      "bytes": 5111,
+      "sha256": "12dfa234d50bc9c6cd4c254d7fb3e4a7a6bdfc5ef3dc1d50a1a3bfb5131a4c4b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Cryptomining",
+      "bytes": 32,
+      "sha256": "696e930706b5d391eb8778f73b0627ffc2be7f6c9a3e7659170d9d37fc4a97b5"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Entities",
+      "bytes": 129152,
+      "sha256": "c02561be8b8ae0e1a20857566e05c411c421a17bb8d37e7dd277da5f0cfca7f1"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Fingerprinting",
+      "bytes": 2342,
+      "sha256": "07a11d4bd6aec3955f5df8eaf0f0bb4d81ac00eeaa9f407aeaad8cae8cb8ec83"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/LICENSE",
+      "bytes": 66,
+      "sha256": "44071e0fcffb9a9a32e8fa7010bb18dbc41afd0b176f81bf700b15b638a88a51"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Other",
+      "bytes": 34,
+      "sha256": "2b4a47b82cbe70e34407c7df126a24007aff8b45d5716db384d27cc1f3b30707"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Social",
+      "bytes": 3424,
+      "sha256": "f3a6c9e95f1568043711d7babe6ce0d2ab5ca62e7bc2d736db4ed2360352dc32"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/Sigma/Staging",
+      "bytes": 1816,
+      "sha256": "2ea789855f6b22a3fccb0600d9631e22f863999e31dc4a31daee03770903097c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/Trust Protection Lists/manifest.json",
+      "bytes": 132,
+      "sha256": "18e9ece26c6a3771eab283c45d087b6e8f0b6ba18c496e96d352642100298bbe"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/WidevineCdm/LICENSE",
+      "bytes": 473,
+      "sha256": "20de375707692099b3132084695377ce5fec0aec05813dedcce094b8eda44386"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/WidevineCdm/_platform_specific/win_x64/widevinecdm.dll",
+      "bytes": 22716072,
+      "sha256": "82723a5ae46edee3596a68b5785d7c16209e28b08e47d1e08a07672c669e60ce"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/WidevineCdm/_platform_specific/win_x64/widevinecdm.dll.sig",
+      "bytes": 1389,
+      "sha256": "f5a66629bc5d41c32e4cfa7888ba65674d6172e7983221898c718fb32c818bbd"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/WidevineCdm/manifest.json",
+      "bytes": 1002,
+      "sha256": "dca3cd7a673d0776a085c0b8958a85bdd8392923db21a0b55f4d37210f752322"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/concrt140.dll",
+      "bytes": 331760,
+      "sha256": "ef38bee3e5c6a75cefae7d2dc2b14d28c4d70eecb7b2127202f80ad1cb22b4c8"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/copilot_overlay_images_100_percent.pak",
+      "bytes": 8439,
+      "sha256": "acfa658f030a01ca840d3d7a407be2a2ea45088cb20454deb0f396710366c83e"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/copilot_overlay_images_200_percent.pak",
+      "bytes": 13095,
+      "sha256": "312006e262561061e0d9b37e3293562645f876367bc7ec1f63d4149943b90d4a"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/copilot_overlay_unscaled_images.pak",
+      "bytes": 21561,
+      "sha256": "3ceff14419ae2d1e3231a77e1231dbdd662fe13cdefee9d41832bc7ff4eb9128"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/copilotapp.exe",
+      "bytes": 4604744,
+      "sha256": "a51a97a9d5352b82e86ccd29b157d1f12afafe177c1f17746ec4ca43b8056231"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/d3dcompiler_47.dll",
+      "bytes": 4751568,
+      "sha256": "5b9b744e79ec8f1a1843111fe149488f86204859396c0ab3ec7b83e829cf5194"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/dual_engine_adapter_x64.dll",
+      "bytes": 5382856,
+      "sha256": "ba9858df592dec64754736292d4cb287af2eadad74fee915ae9eb0aed9039342"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/dxcompiler.dll",
+      "bytes": 20531528,
+      "sha256": "893ea746afe0bceafb4d088465ecaa144ba4002a9c8ac357e85bbc2e509ff388"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/dxil.dll",
+      "bytes": 1519840,
+      "sha256": "9a0f2ebf89e2cf57c8b4d0848a36178339b90e3722f016be67c2067e43f6fd9b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/edge_feedback/camera_mf_trace.wprp",
+      "bytes": 24910,
+      "sha256": "3f2eb6455f54365c27829f85dd64ca0bafaa8577a6c8e79a54a6dd4c67df6470"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/edge_feedback/mf_trace.wprp",
+      "bytes": 12735,
+      "sha256": "79a228f8f85310c27c292055d9e0e9b827c319c2472b4ba5b40e88851bc4b4f3"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/elevated_tracing_service.exe",
+      "bytes": 5394760,
+      "sha256": "df8397ce956f8ae5f72c70ccd09b1f4bbda99414679ff9463af8c66df01e84ce"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/eventlog_provider.dll",
+      "bytes": 16200,
+      "sha256": "0dbdee93b32d458f465cf77c65c9218c551a9832ef450a3e8c7fda40f3632d85"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/ffmpeg.dll",
+      "bytes": 3081544,
+      "sha256": "f08a238da0349ebdc4940e54a6d6200181fbe9c864f294e3c669fd323c5728f2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/icudtl.dat",
+      "bytes": 12461408,
+      "sha256": "45f7134340f3479f46d2e36f4fb663a86cf0a81484d93d851806fcaf2fc8257c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/learning_tools.dll",
+      "bytes": 1296712,
+      "sha256": "60028bb91b9be0005605f95fe5e11b6c657ad467f1de1c8bc787c8599e117835"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/microsoft_shell_integration.dll",
+      "bytes": 457544,
+      "sha256": "c78e01f0005a4b284f26986c068aae95c95fdda2d1801c01e1b77a0af52ff7a2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/mip_core_gn.dll",
+      "bytes": 8724808,
+      "sha256": "3d85787c979e857d808e3a74a7c22d06bf7eb312364f184ed12ce61ce0b9546c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/mscopilot.exe",
+      "bytes": 4574024,
+      "sha256": "04137682f05120ee7c1e252061f0ac099b50b7aad6acf09b1d2f69a297bae717"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedge.dll",
+      "bytes": 342032200,
+      "sha256": "c0ea1a080047e546556fc19d3f84cace1495425a1e6173090e0a0ce3b7e9d5ec"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedge.dll.sig",
+      "bytes": 1389,
+      "sha256": "9c17a5858692439c54e6cc2b385ee9a75cbcd1369c07025fda46a404339ab445"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedge_100_percent.pak",
+      "bytes": 1281826,
+      "sha256": "ab8586157eed870e2a1c17e561b1dc042571803322903be1b1fdcf53832b46f2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedge_200_percent.pak",
+      "bytes": 2025386,
+      "sha256": "bde03816890c63ea2538a92075ea4d1dbb47161f84b7809a2f5a933127f9887f"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedge_elf.dll",
+      "bytes": 3984200,
+      "sha256": "c77d795afe8189021436027b924e40a797b8308eada35b124bf1a7478efdcca0"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedge_wer.dll",
+      "bytes": 118600,
+      "sha256": "4aa423d70b6e360419e3701a911a838f4281892a63daefba47e7a9fc75a523ab"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedgewebview2.exe",
+      "bytes": 4477256,
+      "sha256": "cf2347546892bc8fecdf85a19d0ec0dc38d148902cfacf3e52391f965ee70c76"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msedgewebview2.exe.sig",
+      "bytes": 1389,
+      "sha256": "ca92dcf2e76585950b3396757196baf95a260ff44579208181bc48de349402c1"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/mspdf.dll",
+      "bytes": 19607368,
+      "sha256": "ae0430f40539e4de8630f71a2d91294721218f39e20e4b92e1c745e895e6eab6"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msvcp140.dll",
+      "bytes": 563616,
+      "sha256": "234fd48af791f860e572cbbe298d89f81351f51755067e05cd52bb900e3b3a92"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/msvcp140_codecvt_ids.dll",
+      "bytes": 41456,
+      "sha256": "d54a6bcc953c43594d0f54d081daca3fe3db3edc4918d19bd5de265ea63c7487"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/notification_helper.exe",
+      "bytes": 2800968,
+      "sha256": "fbf8a622965b5c879d8333dbf8141e46f8066a993a2bc78f233f18358e27476b"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/oneauth.dll",
+      "bytes": 6061896,
+      "sha256": "4618e92803373fa5e3f38f5db0d930b2c9093d2fdb48577501937d7aa5e150cb"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/oneds.dll",
+      "bytes": 3391296,
+      "sha256": "571d1a4d4caa7f460b96ba802a8f3cae2fe430ed82f0fcb5993369224dda8c09"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/onnxruntime.dll",
+      "bytes": 10910016,
+      "sha256": "34273798c54f69ef73edf7cf99b8c01d07af445fa1bb9791cc19c56fa48ecd26"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/onramp.dll",
+      "bytes": 466248,
+      "sha256": "196ef1818cf45481110ba3155f63d0d4a4cec47098574676ca71c221301da2a9"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/platform_experiences_helper.exe",
+      "bytes": 3113800,
+      "sha256": "9c5a0c415ab9eac2ae72f08d88a3f4b7e9027ff5af28543032200e78f784f223"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/prefs_enclave_x64.dll",
+      "bytes": 116216,
+      "sha256": "f2e0c93da542c7ffacb5e23897ded418756fdfb151741f885078ce1e966fb30a"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/resources.pak",
+      "bytes": 39783667,
+      "sha256": "fde7dd64d22e6e400ac16aba7a0c21ed67aa762ff8f297f2e5c1ddd223d5a374"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/show_third_party_software_licenses.bat",
+      "bytes": 270,
+      "sha256": "3e867e263b64592b2dad5c334b6aa46d0bb46a20aa0db01c5ff08c707c3e148d"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/telclient.dll",
+      "bytes": 3989832,
+      "sha256": "654fd6be6d49eb76d36d2db8858fda9fef71dafa87f416d1b102ff01f42dd014"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/textInputMethod.sccd",
+      "bytes": 18615,
+      "sha256": "f88664c021237bbc0299b5ae3f5686b915e3007bf2902be8186ad847476447bf"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/v8_context_snapshot.bin",
+      "bytes": 757736,
+      "sha256": "9b1ffba3957604b60f2c1dd8d2809725a36541d8be30ff5edab723bb75e8a217"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/vccorlib140.dll",
+      "bytes": 360944,
+      "sha256": "4fedbb4eadc7f585c0951d56730d288ee034a39e8624d395af5755f2ef9994f9"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/vcruntime140.dll",
+      "bytes": 133536,
+      "sha256": "1e36ffcb2dece1392746c11d4d6c822a4f14553704b625f47bd36a740af60a38"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/vcruntime140_1.dll",
+      "bytes": 57328,
+      "sha256": "a6a12bd134ff3823e26b8a083f0c8c55e4522a0af5a82621d45f504055fcffb2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/version.txt",
+      "bytes": 14,
+      "sha256": "2136715a63f123266242898a099a6ed1e5c562536e09f30c1761696334e35fe2"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/vk_swiftshader.dll",
+      "bytes": 4723528,
+      "sha256": "1a4b2ca483a0e933df887acd1b9b063b2d3cf29e3309d842d6ebbfa5bccb8212"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/vk_swiftshader_icd.json",
+      "bytes": 106,
+      "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/vulkan-1.dll",
+      "bytes": 952648,
+      "sha256": "d2224be291f522be4082bf9149287ba13e9f5aa7b967cca94fc19b0066cf3dc0"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/wdag.dll",
+      "bytes": 251208,
+      "sha256": "b44dbfab6a364189f518d030e653518167427df82cf12a4fceaff074a06d624c"
+    },
+    {
+      "path": "Jammers-simulator-full/WebView2Runtime/webview2_integration.dll",
+      "bytes": 31048,
+      "sha256": "05b95c4a22db8d57cd316dba036a4594cbb6bb07b72998f65761ae3c10cc130f"
+    },
+    {
+      "path": "Jammers-simulator-full/jammers-simulator-full.exe",
+      "bytes": 18768896,
+      "sha256": "110542502401761b81f701ca1a866092e38d4ac290fa025bf18aed73ff8e9628"
+    }
+  ]
+}

@@ -6,11 +6,11 @@
 
 ## 样本完整性
 
-`simulator/artifact-manifest.json` 记录相对路径、文件大小和 SHA-256。运行 `tools/inventory.py --verify` 时：
+`simulator/artifact-manifest.json` 记录程序及运行时文件的相对路径、文件大小和 SHA-256；`full-artifact-manifest.json` 记录完整的 272 个文件。完整样本本身通过 Git LFS 保存。运行 `tools/inventory.py --verify` 时：
 
 1. 清单路径必须是相对路径，不能包含 `..`；
 2. 文件必须存在且大小、SHA-256 完全匹配；
-3. 清单忽略 `.DS_Store` 和 `JammersSimulatorData` 运行状态；
+3. 普通清单忽略 `.DS_Store` 和 `JammersSimulatorData` 运行状态；完整清单由 `--include-all` 生成并校验这些文件；
 4. 出现额外文件只作提示，不自动删除；
 5. 不把本地绝对路径写回公开清单。
 
@@ -31,7 +31,7 @@
 | `evidence_path` | 本机证据的相对标签，不能提交原始敏感日志 |
 | `claim_level` | `observed`、`inferred` 或 `unknown` |
 
-记录时保存原始证据在本机受控目录，再生成脱敏摘要。公开仓库只接受不含机器人编号、账号、手机号、Cookie、请求 UUID 和个人绝对路径的摘要。
+记录时保存原始证据在本机受控目录，再生成脱敏摘要。公开观察摘要不应含机器人编号、账号、手机号、Cookie、请求 UUID 和个人绝对路径；完整样本中的运行状态需由使用者自行确认其公开权限。
 
 ## 黑盒实验设计
 
